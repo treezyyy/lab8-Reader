@@ -22,5 +22,6 @@ public class Main {
         System.out.println(array[0].TakeBook(collections));
         System.out.println(array[0].ReturnBook(4));
         System.out.println(array[0].ReturnBook(collections));
+        System.out.println("номер билета "+ array[3].initials + " - " + array[3].TicketNumber);
     }
 }

@@ -4,7 +4,7 @@ public class reader {
     String facult;
     String birthdate;
     String phone;
-    int CounterTicketNumber = 1;
+    static int CounterTicketNumber = 1;
     reader (String initials, String birthdate, String phone, String facult){
         this.initials = initials; // for ezempl
         this.facult = facult;
