@@ -16,7 +16,7 @@ public class Main {
            String phone = in.next();
            array[i] = new reader(initials, bithdate, phone, facult);
         }
-        String[] collections = new String[] {"Пушкин", "Высоцкий", "Есенин", "Малышев"};
+        String[] collections = new String[] {"Пушкин", "Высоцкий", "Есенин", "Малышев."};
         System.out.println(Arrays.toString(array));
         System.out.println(array[0].TakeBook(4));
         System.out.println(array[0].TakeBook(collections));
