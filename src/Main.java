@@ -14,7 +14,7 @@ public class Main {
            String bithdate = in.next();
            System.out.println("Введите номер телефона");
            String phone = in.next();
-           array[i] = new reader(initials, facult, bithdate, phone);
+           array[i] = new reader(initials, bithdate, phone, facult);
         }
         String[] collections = new String[] {"Пушкин", "Высоцкий", "Есенин", "Малышев"};
         System.out.println(Arrays.toString(array));
